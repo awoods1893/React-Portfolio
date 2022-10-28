@@ -6,6 +6,9 @@ import { loadFull } from "tsparticles"
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+
+
 function App() {
 
   const particlesInit = useCallback(async (engine) => {
@@ -83,7 +86,7 @@ function App() {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 60,
           },
           opacity: {
             value: 0.5,
@@ -102,6 +105,7 @@ function App() {
     <Navbar />
     <Header/>
     <AboutMe />
+    <Portfolio />
     </>
     );
 }

@@ -6,6 +6,7 @@
   --primary-dark: rgba(255,255,255,0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-light-grey: #808080;
 }
 
 body{
@@ -119,4 +120,25 @@ border-top:0.1875rem solid var(--primary-dark);
 .about-heading{
   color: var(--primary-blue);
   text-transform: uppercase;
+}
+
+/**************Portfolio**********************/
+
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+  z-index: 2;
+
+}
+
+.portfolio-image {
+  width: 15rem !important;
+  border: 1px solid var(--primary-blue);
+  padding: 0 0.5rem;
+  z-index: 2;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
 }
