@@ -18,8 +18,9 @@ nav{
 }
 
 .logo{
-  width: 12.25rem;
-  height: 6.25rem;
+  
+  width: 11.55rem;
+  height: 6.55rem;
 }
 
 /**************Menu Links******************/
@@ -126,15 +127,20 @@ border-top:0.1875rem solid var(--primary-dark);
 
 .portfolio-wrapper {
   background: var(--primary-light-grey);
-  padding: 3rem 0;
-  z-index: 2;
+  padding: 3rem 0rem;
+  }
+
+.portfolio-image-box-wrapper {
+  display: flex;
+  justify-content: center;
 
 }
 
 .portfolio-image {
-  width: 15rem !important;
-  border: 1px solid var(--primary-blue);
-  padding: 0 0.5rem;
+  width: 15rem;
+  height: 9rem;
+  border: 1px solid var(--primary-white);
+  padding: 0.5rem;
   z-index: 2;
 }
 
