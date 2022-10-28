@@ -5,6 +5,7 @@ import { useCallback } from "react";
 import { loadFull } from "tsparticles"
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 function App() {
 
   const particlesInit = useCallback(async (engine) => {
@@ -100,6 +101,7 @@ function App() {
     />
     <Navbar />
     <Header/>
+    <AboutMe />
     </>
     );
 }
