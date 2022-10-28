@@ -1,10 +1,18 @@
 import React from "react";
+import Type from "react-typed";
 
 const Header = () => {
   return (
    <div className="header-wrapper">
     <div className="main-info"> 
-    <h1>Test Text</h1>
+    <h1>Aaron Woods</h1>
+    <Type
+        className="type-text"
+        strings={["Security Engineer", "IT Professional", "Coder"]}
+        typeSpeed={40}
+        backSpeed={60}
+        loop
+    />
     </div>
    </div> 
   )
