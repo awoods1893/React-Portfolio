@@ -196,4 +196,5 @@ transition: 0.3s ease-in-out;
 .contact h1{
   color: var(--primary-blue);
   padding: 1.3rem 0;
+  text-transform: uppercase;
 }

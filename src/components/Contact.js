@@ -3,11 +3,15 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact">
+        <div className="text-center">
         <h1>Contact Me</h1>
-        <p>Please fill out the form to contact me!</p>
+        <p>I can be reached at my email address: awoods1983@gmail.com or on my social media.</p>
+        </div>
+        </div>
+       
 
-    </div>
+       
   )
-}
+};
 
 export default Contact
