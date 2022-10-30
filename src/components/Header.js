@@ -3,8 +3,8 @@ import Type from "react-typed";
 
 const Header = () => {
   return (
-   <div className="header-wrapper">
-    <div className="main-info"> 
+   <div id="home" className="header-wrapper">
+    <div  className="main-info"> 
     <h1>Aaron Woods</h1>
     <Type
         className="type-text"
