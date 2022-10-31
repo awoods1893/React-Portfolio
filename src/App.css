@@ -188,13 +188,30 @@ transition: 0.3s ease-in-out;
 
 /**************Contact Form*******************/
 
-.contact{
-  background-color: var(--primary-white);
+.contact {
+  background: var(--primary-dark);
   padding: 3rem 0;
 }
 
 .contact h1{
-  color: var(--primary-blue);
+  color: var(--primary-blue) ;
   padding: 1.3rem 0;
   text-transform: uppercase;
+}
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-blue) ;
+  border-radius: 0;
+  color: var(--primary-light-grey);
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn{
+  margin: 1rem 0 0 0;
+  width: 100%;
 }
