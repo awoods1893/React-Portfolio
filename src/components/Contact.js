@@ -2,7 +2,7 @@ import React, {useRef} from "react";
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-const form= useRef();
+const form= useRef()
 const serviceID = "service_ID"
 const templateID = "template_ID"
 const publicKey = "nIRBKR2aFrgmboRlG"
