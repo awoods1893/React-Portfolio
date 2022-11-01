@@ -215,3 +215,25 @@ transition: 0.3s ease-in-out;
   margin: 1rem 0 0 0;
   width: 100%;
 }
+
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-blue);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-light-grey);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0rem;
+}
